@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>
-        LNBits | nerdMiner Installer
+        LNbits | NerdMiner Installer
     </title>
 
     <!-- Primary Meta Tags -->
@@ -107,11 +107,12 @@
                                 </div>
                                 <div class="col">
                                     <select id="binVersionOption" class="ud-main-btn ud-white-btn">
-                                        <option value="v0.15">Stable Version</option>
+                                        <option value="v1.4">Stable Version</option>
+                                        <option value="master">Latest</option>
                                     </select>
                                 </div>
                                 <div class="col">
-                                    <esp-web-install-button id="espInstallButton" manifest="./firmware/esp32/v0.15/manifest.json">
+                                    <esp-web-install-button id="espInstallButton" manifest="./firmware/esp32/v1.4/manifest.json">
                                         <button slot="activate" class="ud-main-btn ud-white-btn" data-toggle="tooltip"
                                             data-placement="bottom" title="Flasn">Flash</button>
                                     </esp-web-install-button>
@@ -372,7 +373,10 @@
     <!-- ====== Back To Top End ====== -->
 
     <!-- ====== All Javascript Files ====== -->
-    <script type="module" src="https://unpkg.com/esp-web-tools@8.0.6/dist/web/install-button.js?module"></script>
+    <script
+  type="module"
+  src="https://unpkg.com/esp-web-tools@9/dist/web/install-button.js?module"
+></script>
     <script src="../../assets/js/bootstrap.bundle.min.js"></script>
     <script src="../../assets/js/wow.min.js"></script>
     <script src="../../assets/js/main.js"></script>
