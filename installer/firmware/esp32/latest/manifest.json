@@ -1,6 +1,6 @@
 {
   "name": "NerdMiner",
-  "version": "1.4",
+  "version": "latest",
   "funding_url": "https://github.com/lnbits/NerdMiner_v2",
   "new_install_prompt_erase": true,
   "builds": [
